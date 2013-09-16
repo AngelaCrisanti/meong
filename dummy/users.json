@@ -1,0 +1,10 @@
+{
+    "alfa": {
+        "fullName": "Alfa",
+        "password": "test"
+    },
+    "angel": {
+        "fullName": "Angel",
+        "password": "password"
+    }
+}

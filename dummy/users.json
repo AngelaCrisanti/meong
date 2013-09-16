@@ -1,14 +1,3 @@
-/** Struktur sementara
-* File ini digunakan untuk login
-* Sebuah modul harus digunakan untuk parsing file ini
-{
-    "username kamu": {
-        "fullName": "Nama Panjang Kamu",
-        "password": "String yang rahasia biar bisa masuk"
-    }
-}
-*/
-
 {
     "alfa": {
         "fullName": "Alfa",

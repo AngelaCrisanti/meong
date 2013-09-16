@@ -1,5 +1,5 @@
 - Bikin library khusus buat nanganin CRUD (MongoDB)
-- Bikin library khusus buat nanganin Session Management (MongoDB)
+- Bikin library khusus buat nanganin Session Management (Login/Logout) (MongoDB)
 - Bikin library khusus buat nanganin User Registration (MongoDB)
 - Bikin front-end buat nampilin halaman RUMAH (Designing)
 - Rapihin README.md (API, HowTo's, Penjelasan Library dsb)

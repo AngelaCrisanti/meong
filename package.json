@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "private": true,
     "scripts": {
-        "start": "supervisor --ignore views,public --extensions js,json --no-restart-on exit app.js"
+        "start": "supervisor --ignore views,public --extensions js,json --no-restart-on exit meong.js"
     },
     "dependencies": {
         "express": "~3.4.0",

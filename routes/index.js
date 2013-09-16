@@ -1,5 +1,5 @@
-module.exports = function(app) {
-    app.get('/', function(req, res) {
+module.exports = function(meong) {
+    meong.get('/', function(req, res) {
         res.render('index', {});
     });
 };

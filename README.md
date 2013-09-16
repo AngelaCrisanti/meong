@@ -25,6 +25,7 @@ untuk mengetahui apa aja yang bisa kamu buat.
 
 ```
     npm install
+    sudo npm install supervisor -g
 ```
 - Jalanin server Meong
 

@@ -15,13 +15,88 @@
     <!-- End of CSS files -->
 </head>
 <body>
+    <nav class="navbar navbar-inverse" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand"><img src="img/iconhome.png" class="icon-Home" /></a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#halamanRumah" data-toggle="tab">Rumah</a></li>
+          <li class="nav navbar-nav navbar-left"><a href="#halamanObrolanKamu" data-toggle="tab">Obrolan Saya</a></li>
+          <li class="nav navbar-nav navbar-left"><a href="#halamanKamu" data-toggle="tab">Saya</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-gear"></i> Pengaturan<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#halamanPengaturanTentangKamu" data-toggle="tab">Pengaturan Tentang Kamu</a></li>
+                <li><a href="#halamanPengaturanAkun" data-toggle="tab">Pengaturan Akun</a></li>
+              </ul>
+          </li>
+          <li>
+            <a href="#" id="keluar"><i class="icon-signout"></i> Keluar</a>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+      
     <!-- Contents goes here -->
     <div class="container contents">
         <div class="row">
-            <h1 class="center welcome">Selamat datang di Rumah kamu</h1>
-            <h3 class="center welcome"><%- pesan %></h3>
-            <p>Fixme please :(</p>
-        </div>
+          <div class="tab-content">
+            <div class="tab-pane fade in active row" id="halamanRumah">
+              <h1 class="center welcome">Selamat datang di Rumah kamu</h1>
+              <h3 class="center welcome"><%- pesan %></h3> 
+              <div class="col-md-3 well">
+                <h5>Tentang Kamu</h5>
+                <hr/>
+              </div>
+              <div class="col-md-8 col-md-offset-1 well">
+                <h5>Obrolan</h5><!-- isi obrolan-obrolan teman dan pribadi -->
+                <hr/>
+              </div>
+              <div class='pagination pagination-centered'></div>
+            </div>
+            <div class="tab-pane fade" id="halamanObrolanKamu">
+            <h1>Obrolan-Obrolan Kamu</h1><!-- isi tweetan pribadi -->
+              <div class="col-md-4 well">
+                <h5>Tanggal</h5>
+              </div>
+              <div class="col-md-7 col-md-offset-1 well">
+                <h5>Obrolan Kamu</h5>
+              </div>  
+            </div>
+            <div class="tab-pane fade" id="halamanKamu">
+            <h1>Tentang Kamu</h1>
+              <div class="col-md-7 well">
+                <h5>Tentang Kamu</h5>
+              </div>
+              <div class="col-md-4 col-md-offset-1 well">
+                <h5>Teman</h5>
+              </div>  
+            </div>
+            <div class="tab-pane fade" id="halamanPengaturanTentangKamu">
+            <h1>Pengaturan Tentang Kamu</h1>
+              <div class="col-md-12 well">
+                <h5>Pengaturan Tentang Kamu</h5>
+              </div>  
+            </div>
+            <div class="tab-pane fade" id="halamanPengaturanAkun">
+            <h1>Pengaturan Akun</h1>
+              <div class="col-md-12  well">
+                <h5>Pengaturan Akun</h5>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /container -->
     </div>
     <!-- End of contents -->
 
